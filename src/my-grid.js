@@ -30,9 +30,6 @@ class myGrid extends LitElement {
         
     }
 
-    .main__section1{
-        background: #EC9A29;
-    }
     .main__section1 .tituloh1 {
         margin: 25px;
         margin-top:5px;
@@ -42,20 +39,11 @@ class myGrid extends LitElement {
         margin: 20px;
         font-size:1.5vw
     }
-    .main__section2{
-        background: #EF233C;
-    }
-    .main__section2{
-        background: #35A7FF;
-    }
-    .main__section3{
-        background: #E8E9ED;
-    }
     @media (max-width: 849px){
         .main{
             grid-template-columns: 1fr;
             grid-template-rows: 1fr 80px;
-        }<h1 class="tituloh1">Discover new Music</h1>
+        }
         .aside__profile{
             display: none
         }
@@ -63,7 +51,7 @@ class myGrid extends LitElement {
             display: none
         }
 
-        .main__section1Discover new Music/{
+        .main__section1Discover {
             display: none
         }
         .main__section2{
@@ -84,7 +72,7 @@ class myGrid extends LitElement {
             <section class="main__section1">
                 <h1 class="tituloh1">Discover new Music</h1>
                 <h2>Top-Chart</h2>
-                <new-music class="new-music"></new-music>
+                <new-music class="new-music">hi</new-music>
             </section>
             <section class="main__section2">
                 <my-element><my-element/>
