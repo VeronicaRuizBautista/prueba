@@ -304,8 +304,6 @@ export class MyElement extends LitElement{
   render(){
     return html`
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
-
       <div class="container">
         <div class="titule">
           <h3>${this.titule}<h3>
@@ -368,7 +366,7 @@ export class MyElement extends LitElement{
 
     `
   }
-  _mostrar(){
+  mostrar(){
     this.name = e.target.value
   }
 }

@@ -3,6 +3,7 @@ import { MyElement } from "./my-element";
 import { newMusic } from "./top-chart";
 import { myTrack } from "./playing-next";
 import { MyLeftBar } from "./segundoElement";
+import { mySpotify } from "./myspotify";
 
 
 class myGrid extends LitElement {
@@ -76,6 +77,7 @@ class myGrid extends LitElement {
                 <h1 class="tituloh1">Discover new Music</h1>
                 <h2>Top-Chart</h2>
                 <new-music class="new-music"></new-music>
+                <my-spotify></my-spotify>
             </section>
             <section class="main__section2">
                 <my-element><my-element/>
@@ -94,3 +96,4 @@ customElements.define('my-element', MyElement);
 customElements.define("new-music", newMusic);
 customElements.define('my-track', myTrack);
 customElements.define('my-left-bar', MyLeftBar);
+customElements.define("my-spotify", mySpotify)
