@@ -16,7 +16,7 @@ export class myTrack extends LitElement{
     const options = {
       method: 'GET',
       headers: {
-        'X-RapidAPI-Key': '29392637f6msh22f35e67f4b3080p17fbe7jsn0806c5a433fb',
+        'X-RapidAPI-Key': '0c1c90cf73msh78785e045c1a7e6p16a1ecjsn4c853bde2387',
         'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
       }
     };
