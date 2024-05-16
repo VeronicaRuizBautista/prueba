@@ -1,4 +1,13 @@
 import { LitElement, html, css } from "lit"
+import infinitLogo from './storage/img/infinitLogo.svg';
+import userLogo from './storage/img/userLogo.svg';
+import brujula from './storage/img/brujula.svg';
+import earphonesLogo from './storage/img/earphonesLogo.svg';
+import heartLogo from './storage/img/heartLogo.svg';
+import bookLogo from './storage/img/bookLogo.svg';
+import gearLogo from './storage/img/gearLogo.svg';
+import exitLogo from './storage/img/exitLogo.svg';
+
 export class MyLeftBar extends LitElement {
   
     constructor() {
@@ -7,37 +16,37 @@ export class MyLeftBar extends LitElement {
   
     render() {
       return html`
-        <div class="leftBar__user">
+      <div class="leftBar__user">
           <a href="#">
-            <img src="../">
+          <img src="${infinitLogo}" alt="Infinit Logo">
           </a>
           <a href="#">
-            <img src=${userLogo}>
+            <img src="${userLogo}" alt="userLogo">
           </a>
         </div>
         <hr>
         <div class="leftBar__options">
           <a href="#">
-            <img src=${compassLogo}>
+            <img src="${brujula}">
           </a>
           <a href="#">
-            <img src=${earphonesLogo}>
+            <img src="${earphonesLogo}">
           </a>
           <a href="#">
-            <img src=${heartLogo}>
+            <img src="${heartLogo}">
           </a>
           <a href="#">
-            <img src=${bookLogo}>
+            <img src="${bookLogo}">
           </a>
         </div>
         <div class="leftBar__exit">
           <a href="#">
-            <img src=${gearLogo}>
+            <img src="${gearLogo}">
           </a>
           <a href="#">
-            <img src=${exitLogo}>
+            <img src="${exitLogo}">
           </a>
-        </div>
+      </div>
       `
     }
   
@@ -48,8 +57,8 @@ export class MyLeftBar extends LitElement {
           flex-direction: column;
           align-items: center;
           /*justify-content: center;*/
-          background: gray;
-          height: 98vh;
+
+          height: 50vh;
         }
         img{
           width: 2.5em;

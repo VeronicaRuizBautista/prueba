@@ -4,6 +4,7 @@ import { newMusic } from "./top-chart";
 import { myTrack } from "./playing-next";
 import { MyLeftBar } from "./segundoElement";
 
+
 class myGrid extends LitElement {
 
     static styles = css`
@@ -16,13 +17,12 @@ class myGrid extends LitElement {
     }
 
     .main__aside{
-        background: #2B2D42;
         padding: 10px;
         display: grid;Discover new Music/
         grid-template-rows: 130px 1fr 130px
     }
     .aside__profile{
-        border-bottom: 1px solid gray
+        border-bottom: 1px solid gray;
     }
     .aside__buttons{
         
@@ -65,7 +65,9 @@ class myGrid extends LitElement {
         return html`
         <main class="main">
             <aside class="main__aside">
-                <article class="aside__profile"></article>
+                <article class="aside__profile">
+                    <my-left-bar></my-left-bar>
+                </article>
                 <article class="aside__buttons">
                 </article>
                 <article class="aside__exit"></article>
@@ -73,8 +75,7 @@ class myGrid extends LitElement {
             <section class="main__section1">
                 <h1 class="tituloh1">Discover new Music</h1>
                 <h2>Top-Chart</h2>
-                <new-music class="new-music">hi</new-music>
-                <my-left-bar></my-left-bar>
+                <new-music class="new-music"></new-music>
             </section>
             <section class="main__section2">
                 <my-element><my-element/>
