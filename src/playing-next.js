@@ -12,11 +12,11 @@ export class myTrack extends LitElement{
   }
 
   async loadSong() {
-    const url = 'https://spotify23.p.rapidapi.com/artist_singles/?id=2w9zwq3AktTeYYMuhMjju8&offset=0&limit=30';
+    const url = 'https://spotify23.p.rapidapi.com/artist_singles/?id=2w9zwq3AktTeYYMuhMjju8&offset=0&limit=20';
     const options = {
       method: 'GET',
       headers: {
-        'X-RapidAPI-Key': '0c1c90cf73msh78785e045c1a7e6p16a1ecjsn4c853bde2387',
+        'X-RapidAPI-Key': 'd2393662cbmsh5c9d57297695353p150c95jsned1b87aca971',
         'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
       }
     };
