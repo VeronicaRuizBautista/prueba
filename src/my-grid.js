@@ -77,7 +77,7 @@ class myGrid extends LitElement {
                 <h1 class="tituloh1">Discover new Music</h1>
                 <h2>Top-Chart</h2>
                 <new-music class="new-music"></new-music>
-                <my-spotify></my-spotify>
+                <my-track></my-track>
             </section>
             <section class="main__section2">
                 <my-element><my-element/>
